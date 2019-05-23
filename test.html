@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Boberick the llama</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    </head>
+	<style>
+body {
+    margin: 0;
+    margin-top: 50px;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: #eee;
+}
+
+header * {
+    display: inline;
+    height: 50px;
+}
+
+header ul {
+    padding: 0;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+.sectionT {
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+ justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+.sectionS {
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#hero .profile-img {
+    width: 300px;
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+}
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+</style>
+
+    <body>
+        <header>
+            <img src="https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/llama.jpg" class="profile-img">
+            <nav>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="hero" class="sectionS">
+                <div class="section-inner">
+                    <img src="https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/llama.jpg" class="profile-img">
+                    <h1>Hi, I'm Boberick the llama.</h1>
+                </div>
+            </section>
+            <section id="about" class="sectionT">
+<iframe id="inlineFrameExample"
+    title="Inline Frame Example"
+    width="300"
+    height="200"
+    src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik">
+</iframe>
+            </section>
+            <section id="contact" class="sectionS">
+                <div class="section-inner">
+                    <h2>Contact me</h2>
+                    <p>You can find me on:</p>
+                    <ul>
+                        <li><a href="https://twitter.com/llama">Twitter</a></li>
+                        <li><a href="https://www.reddit.com/user/llama">Reddit</a></li>
+                        <li><a href="https://www.instagram.com/llamasporfavor/">Instagram</a></li>
+                    </ul>
+                    <p>Or, you can <a href="mailto:llama@codetheweb.blog">send me an email</a>.</p>
+                </div>
+            </section>
+        </main>
+        <footer>
+            © Copyright Boberick The Llama, 2017
+        </footer>
+    </body>
+</html>
