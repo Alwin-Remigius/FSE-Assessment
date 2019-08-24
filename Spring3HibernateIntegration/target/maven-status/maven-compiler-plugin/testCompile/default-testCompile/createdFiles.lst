@@ -1,0 +1,3 @@
+com\library\dao\BookDAOTest.class
+com\library\service\BookServiceTest.class
+com\library\controller\BookControllerTest.class

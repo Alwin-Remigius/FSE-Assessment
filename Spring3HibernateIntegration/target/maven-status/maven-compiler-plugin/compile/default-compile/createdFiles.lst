@@ -1,0 +1,7 @@
+com\library\dao\BookDaoImpl.class
+com\library\controller\BookController.class
+com\library\dao\BookDAO.class
+com\library\entity\Book.class
+com\library\service\BookManagerImpl.class
+com\library\service\BookManager.class
+TestDB.class
